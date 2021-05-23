@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@200&display=swap');
+
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+section.hautpage {
+    background: url('../images/fondecr.jpg');
+    background-size: cover;
+    height: 55vh;
+    list-style: none;
+}
+
+section.inscription {
+    margin: 20px;
+    color: yellow;
+    background-color: rgb(34, 83, 148);
+    width: 150px;
+    text-align: center;
+    border: 3px yellow solid;
+    box-shadow: -5px 5px 0px black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+header img {
+    width: 150px;
+}
+
+/* menu de navigation */
+
+nav {
+
+    display: flex;
+    justify-content: space-evenly;
+    color: yellow;
+    width: 10000px;
+    height: 70px;
+    background-color: rgb(34, 83, 148);
+    margin: 1cm;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding: 5px;
+    align-items: center;
+    border: yellow dotted 3px ;
+}
+
+.middle {
+    padding: 20px;
+    background-color: rgb(34, 83, 148);
+}
+/* -------------------------------- SERVICES */
+
+.service {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.delivery-icon {
+    font-size: 50px;
+    color: rgb(34, 83, 148);
+}
+
+.nav-item {
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+}
+
+.slogan {
+    font-family: 'Imbue', serif;
+    padding-left: 20px;
+}
+
+a /* Liens par défaut (non survolés) */
+{
+    color: yellow;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: none ;
+   color: rgb(11, 199, 52)
+}
+
+#conteneur
+{
+border: 12px solid yellow;
+display: flex;
+justify-content: space-evenly;
+
+}
+
+.contenu
+{
+    height: 140px;
+    width: 140em;
+}
+
+.contenu:nth-child(1)
+{
+    background-color: blue;
+}
+
+.contenu:nth-child(2)
+{
+    background-color: white;
+}
+
+.contenu:nth-child(3)
+{
+    background-color: red;
+}
+
+/* FOOTER **************/
+
+.informations
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center; 
+font-size: 15px;
+}
+
+.basdepage {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+}
+
+.info-icon {
+
+    font-size: 3em;
+    color: rgb(34, 83, 148);
+}
