@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+}
+
+.btc {
+position: fixed;
+top: -5vh;
+font-size: 2rem;
+transform: translateY(0);
+animation: fall 3s linear;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(105vh);
+    }
+}

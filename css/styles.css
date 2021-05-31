@@ -8,6 +8,7 @@
 
 body {
     margin: 0 auto;
+    
 }
 
 section.hautpage {
@@ -20,6 +21,7 @@ section.hautpage {
 button {
     background-color:rgb(10, 50, 102);
     margin: 10px;
+    margin-left: 20px;
     border: 2px, yellow;
     border-radius: 3px;
     padding: 1em;
@@ -149,3 +151,17 @@ font-size: 15px;
     font-size: 3em;
     color: rgb(34, 83, 148);
 }
+
+.btc {
+    position: fixed;
+    top: -5vh;
+    font-size: 2rem;
+    transform: translateY(0);
+    animation: fall 3s linear;
+    }
+    
+    @keyframes fall {
+        to {
+            transform: translateY(105vh);
+        }
+    }

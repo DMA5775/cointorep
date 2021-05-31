@@ -1,7 +1,3 @@
-
-const bouton = document.getElementById("bouton");
-
-
 function createbtc (){
     const btc = document.createElement
     ('div')
@@ -11,11 +7,10 @@ function createbtc (){
 
     btc.style.animationDuration = Math.random() *2 + 3 + "s";
 
-    btc.innerText = '💰' ;
+    btc.innerText = '🚀' ;
 
     document.body.appendChild(btc);
+
 }
 
 setInterval(createbtc, 100);
-
-bouton.addEventListener('click', createbtc);
